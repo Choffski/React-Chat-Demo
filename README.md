@@ -35,6 +35,7 @@ $ npm install
 $ node server
 $ npm start
 ```
+'node server' and 'npm start' should both be running at the same time.
 
 
 ### How To Use
