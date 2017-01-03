@@ -1,0 +1,117 @@
+#root {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.header-wrapper{
+  display: flex;
+  flex-direction: column;
+  height: 15%;
+  width: 100%;
+  padding: 5px;
+  border-bottom: 1px solid #666;
+}
+
+.header-wrapper span{
+  text-align: right;
+}
+
+.chatpage-header{
+display: flex;
+flex-direction: row;
+}
+
+.chatpage-header-leave{
+  width: 15%;
+text-align: center;
+padding-top: 3.5%;
+}
+.chatpage-header-info{
+  width:85%
+}
+.chatpage-header-info h1{
+  margin: 0px;
+padding-bottom: 10px
+}
+.chatpage-header-info span{
+  margin: 0px;
+  font-size: 10px;
+padding-bottom: 10px
+}
+.chatpage{
+  width: 100%;
+  height: 100%;
+}
+
+.chatroom-list-container{
+  width: 100%;
+  height: 100%;
+  /*min-height: 750px;*/
+
+  display: flex;
+  flex-direction: row;
+}
+
+.chatroom-list-holder{
+  padding: 10px 5px 10px 5px;
+  width: 20%;
+  height: 100%;
+  border-right: 1px solid #d3d3d3;
+}
+
+.chatroom-content{
+  padding: 10px 5px 10px 5px;
+  width: 80%;
+}
+
+.landing-page{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.landing-title {
+  margin-bottom: 0px;
+  text-align: center;
+  color: #999;
+}
+.landing-text{
+  text-align: center;
+  color: #999
+}
+
+#first{
+  margin-top:30%;
+}
+.separator{
+  width: 70%;
+  height: 1px;
+  margin-left: 15%;
+  border-bottom: 1px solid #999;
+}
+
+
+.chatroom-message-area{
+  padding: 5px;
+  overflow: auto;
+  height: 80%;
+}
+.send-message-area{
+  height: 5%;
+}
+.send-message-area input{
+  width: 75%;
+  height: 30px;
+}
+
+.chat-message {
+margin: 5px;
+}
